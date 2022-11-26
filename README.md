@@ -3,7 +3,7 @@ This tool is designed to extract elements from DICOM files and present those ele
 
 # Modes of Operation
 ## Template Based Extraction
-The user specifies a template file that defines the output written as an Excel spreadsheet. Full details are found here: Extraction_Template_Format.md. In general,
+The user specifies a template file that defines the output written as an Excel spreadsheet. Full details are found here: [Extraction_Template_Format.md](Extraction_Template_Format.md). In general,
 1. The user specifies one or more sheets to be included in the output file. Each sheet is identified by a human readable label.
 1. For each sheet, the user specifies the list of elements to be included in the output. The list can include elements in DICOM sequences.
 1. The tool reads all files specified by the user and collects the set of **unique values** for each element identified in the template file.
